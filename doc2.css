@@ -1,0 +1,134 @@
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.docplanner-logo {
+margin: 2px 0 0;
+    line-height: 68px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+.nav-links {
+   position: relative;
+    float: right;
+    color: grey;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: large;
+    margin-right: 10%;
+    margin-top: 1.5%;
+}
+.au {
+    color: grey;
+}
+.cr {
+    color: grey;
+}
+.dp {
+    color: grey;
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 1px; 
+    width: 70%; /* Set a width for the entire grid */
+    margin: auto; /* Center the grid horizontally */
+  }
+  
+  .col-2 {
+    padding: 20px;
+    
+  }
+p {
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.6;
+    color: rgb(123, 121, 121);
+ }
+ .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+    gap: 10px; /* Espacement entre les éléments */
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  
+  .col-3 {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  .col-3-1 {
+    background-color: #00ccb1;
+  }
+  .col-3-2 {
+    background-color: #3d83df;
+   }
+   .col-3-3 {
+    background-color: #1b2734;
+   }
+ h2 {
+    color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Roboto,Arial,sans-serif;
+    text-align: center;
+ }
+
+.p2 {
+    color: white;
+margin-left: 4%;
+margin-right: 4%;
+font-size: 1.5em;
+    font-weight:lighter;
+    line-height: 1.2;
+      
+ }
+ .countries-existing {
+    background-color: transparent;
+    border: transparent;
+    font-size: medium;
+ }
+
+.grid-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+.col-4-1,.col-4-2,.col-4-3 {
+    flex: 1;
+    text-align: center;
+}
+
+
+.col-4-1 img,.col-4-2 img,.col-4-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.col-4-1 p,.col-4-2 p,.col-4-3 p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+h3 {
+    color: #00b39b;
+    font-size:x-large;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+h4 {
+  font-size: xx-large;
+  font-weight: lighter;
+}
